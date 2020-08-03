@@ -13,10 +13,6 @@
     "release": "rm -rf package-lock.json && npm version minor && npm publish",
     "patch": "rm -rf package-lock.json && npm version patch && npm publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ethereum-play/solc-js.git"
-  },
   "keywords": [
     "ethereum",
     "solidity",
@@ -30,7 +26,6 @@
   "bugs": {
     "url": "https://github.com/ethereum/play/issues"
   },
-  "homepage": "https://github.com/ethereum-play/solc-js#readme",
   "dependencies": {
     "ajax-caching": "^0.1.0",
     "kv-idb": "^1.0.0",
